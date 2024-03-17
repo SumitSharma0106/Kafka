@@ -23,13 +23,13 @@ kafka-server-start.bat ..\..\config\server.properties
 kafka-topics.bat --create --topic topic-example --bootstrap-server localhost:9092
 
 
-How to process message in Kafka Producer:
+How to produce message in Kafka Producer:
 1. Navigate to bin/windows folder in Kakfa directory and run the below command in CMD, it will provide a console to type as message:
 kafka-console-producer.bat --topic topic-example --bootstrap-server localhost:9092
 > Hello World
 
 
-How to consumer message in Kafka Consumer:
+How to consume message in Kafka Consumer:
 1. Navigate to bin/windows folder in Kakfa directory and run the below command in CMD, it will provide you all the messages are there in consumer:
 kafka-console-consumer.bat --topic topic-example --from-beginning --bootstrap-server localhost:9092
 > Hello World
