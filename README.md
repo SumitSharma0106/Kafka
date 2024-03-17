@@ -14,12 +14,12 @@ It consists of Topics, which are also known as categories, in which the generati
 
 How to setup Kafka in windows:
 Navigate the offical website of Kakfa : https://kafka.apache.org/quickstart
-STEP 1: GET KAFKA(post downloading the Kafka, extract it, rename it as a Kafka only and post that place it in a C directory.
-Step 2: Start the ZooKeeper service: Navigate to bin/windows folder in Kakfa folder and run the below command in CMD:
+1. GET KAFKA(post downloading the Kafka, extract it, rename it as a Kafka only and post that place it in a C directory.
+2. Start the ZooKeeper service: Navigate to bin/windows folder in Kakfa folder and run the below command in CMD:
 zookeeper-server-start.bat ..\..\config\zookeeper.properties
-Step 3: Start the Kafka service: Navigate to bin/windows folder in Kakfa directory and run the below command in CMD:
+3. Start the Kafka service: Navigate to bin/windows folder in Kakfa directory and run the below command in CMD:
 kafka-server-start.bat ..\..\config\server.properties
-Step 4: Start the Kafka Topic: Navigate to bin/windows folder in Kakfa directory and run the below command in CMD:
+4. Start the Kafka Topic: Navigate to bin/windows folder in Kakfa directory and run the below command in CMD:
 kafka-topics.bat --create --topic topic-example --bootstrap-server localhost:9092
 
 
